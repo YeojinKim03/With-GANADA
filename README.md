@@ -8,3 +8,11 @@
 
     m4a mp3 변환 프로그램 convertio
     https://convertio.co/kr/m4a-mp3/
+
+## 팀 프로젝트 진행 상황 기록
+https://www.notion.so/4972bf41c09d433692bbfc8a7cc29996
+
+## 가나다함께 팀원 소개
+[팀원1]
+[팀원2]
+[팀원3]
