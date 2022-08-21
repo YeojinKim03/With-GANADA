@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".CheckQuestion">
 
+    <TextView
+        android:id="@+id/stage_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="100dp"
+        android:text="참 잘했어요!"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:rating="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stage_end" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="250dp"
+        android:text="돌아가기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
