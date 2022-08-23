@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".Question">
 
+    <com.kofigyan.stateprogressbar.StateProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="331dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:spb_animateToCurrentProgressState="true"
+        app:spb_checkStateCompleted="true"
+        app:spb_currentStateDescriptionColor="#3F51B5"
+        app:spb_currentStateNumber="two"
+        app:spb_maxStateNumber="five"
+        app:spb_stateBackgroundColor="#BDBDBD"
+        app:spb_stateDescriptionColor="#808080"
+        app:spb_stateForegroundColor="#3F51B5"
+        app:spb_stateNumberBackgroundColor="#808080"
+        app:spb_stateNumberForegroundColor="#eeeeee" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
