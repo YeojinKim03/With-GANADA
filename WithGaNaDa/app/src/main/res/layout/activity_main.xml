@@ -39,7 +39,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="단계 이름이 들어가는 위치"
+                android:elevation="10dp"
+                android:text="받침이 없는 단어"
                 android:textSize="24sp" />
 
             <LinearLayout
@@ -49,19 +50,24 @@
                 android:orientation="horizontal"
                 android:padding="15dp">
 
-                <Button
+                <ImageButton
                     android:id="@+id/button"
-                    android:layout_width="wrap_content"
+                    android:layout_width="98dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="1단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:elevation="10dp"
+                    android:src="@drawable/one" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/button2"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="2단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/two" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,14 +75,16 @@
                 android:layout_height="wrap_content"
                 android:gravity="center|top"
                 android:orientation="horizontal"
-                android:padding="15dp">
+                >
 
-                <Button
+                <ImageButton
                     android:id="@+id/button3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="3단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/three" />
             </LinearLayout>
 
             <TextView
@@ -85,7 +93,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:text="단계 이름이 들어가는 위치"
+                android:elevation="10dp"
+                android:text="받침이 없는 단어 심화"
                 android:textSize="24sp" />
 
             <LinearLayout
@@ -95,19 +104,23 @@
                 android:orientation="horizontal"
                 android:padding="15dp">
 
-                <Button
+                <ImageButton
                     android:id="@+id/button4"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="1단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/four"/>
 
-                <Button
+                <ImageButton
                     android:id="@+id/button5"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="2단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/five"/>
             </LinearLayout>
 
             <LinearLayout
@@ -115,14 +128,16 @@
                 android:layout_height="match_parent"
                 android:gravity="center|top"
                 android:orientation="horizontal"
-                android:padding="15dp">
+               >
 
-                <Button
+                <ImageButton
                     android:id="@+id/button6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_margin="15dp"
-                    android:text="3단원" />
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/six"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
