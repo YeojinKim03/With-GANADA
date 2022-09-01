@@ -6,10 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-    Button Stage1,Stage2,Stage3;
-
+    //Button Stage2,Stage3;
+    ImageButton Stage1,Stage2,Stage3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
