@@ -85,17 +85,59 @@
 
     <EditText
         android:id="@+id/send_editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="54dp"
         android:layout_marginStart="63dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="192.168.219.100"
+        android:text="116.41.108.67"
         app:layout_constraintEnd_toStartOf="@+id/send_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progress_bar" />
+
+    <Button
+        android:id="@+id/test_rec"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/test_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/test_rec"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <Button
+        android:id="@+id/test_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="20dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test_rec" />
+
+    <Button
+        android:id="@+id/test_p_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="27dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/test_play"
+        app:layout_constraintTop_toBottomOf="@+id/test_stop" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
