@@ -1,10 +1,7 @@
 package com.example.withganada;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -13,7 +10,7 @@ import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Environment;
+import android.os.FileUtils;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -22,7 +19,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import com.kofigyan.stateprogressbar.StateProgressBar;
+
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -30,6 +33,17 @@ import java.io.File;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
+
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 
 public class Question extends AppCompatActivity {
 
@@ -59,6 +73,9 @@ public class Question extends AppCompatActivity {
     String fileName;
     MediaPlayer mediaPlayer;
     int position = 0;
+
+    ProgressDialog progressDialog;
+    Button upload_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,6 +116,7 @@ public class Question extends AppCompatActivity {
                     Intent intent = new Intent(getApplicationContext(), CheckQuestion.class);
                     startActivity(intent);	//메인액티비티로 이동
                     finish();	//문제 액티비티 종료
+                    //여기에서 별표 점수 데이터를 넘겨줍니다.
                 }
                 else {
                     Currentstate++;
@@ -176,6 +194,18 @@ public class Question extends AppCompatActivity {
             }
         });
 
+
+
+        findViewById(R.id.test_upload).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { //파일 업로드 테스트
+
+                uploadFile();
+                Connect connect = new Connect();
+                connect.execute(CONNECT_MSG);}
+        });
+
+
     }
 
     // 녹음한 파일 저장
@@ -195,14 +225,7 @@ public class Question extends AppCompatActivity {
         return getContentResolver().insert(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, values);
     }
 
-    /*
-    public void permissionCheck(){
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
-                || ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO}, 1);        }
 
-    }
-*/
     public void permissionCheck(){
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
                 || ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
@@ -243,7 +266,7 @@ public class Question extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... strings) {
             try {
-                client = new Socket(SERVER_IP, 12345);
+                client = new Socket(SERVER_IP, 12344);
                 dataOutput = new DataOutputStream(client.getOutputStream());
                 dataInput = new DataInputStream(client.getInputStream());
                 output_message = strings[0];
@@ -258,6 +281,7 @@ public class Question extends AppCompatActivity {
             }
 
             while (true){
+
                 try {
                     byte[] buf = new byte[BUF_SIZE];
                     int read_Byte  = dataInput.read(buf);
@@ -265,7 +289,16 @@ public class Question extends AppCompatActivity {
                     if (!input_message.equals(STOP_MSG)){
                         publishProgress(input_message);
                     }
+                    else if (input_message.equals(STOP_MSG)){
+                        input_message = "null";
+                        Log.w("closetrans","접속을 정상 종료합니다.");
+                        client.close();
+                        break;
+                    }
                     else{
+                        input_message = "null";
+                        Log.w("closetrans","접속을 종료합니다.");
+                        client.close();
                         break;
                     }
                     Thread.sleep(2);
@@ -284,5 +317,48 @@ public class Question extends AppCompatActivity {
             read_textView.append("받은 메세지: " + params[0]);
         }
     }
+
+
+    private void uploadFile(){      //recorded.mp4 파일을 서버로 업로드하는 구문입니다.
+        //final EditText name = (EditText) findViewById();        //
+
+        RequestBody descriptionPart = RequestBody.create(MultipartBody.FORM, "testna");
+
+        File originalFile = new File(getApplicationInfo().dataDir, "recorded.mp4");
+
+        RequestBody filePart = RequestBody.create(
+                //MediaType.parse(getContentResolver().getType(fileUri)),
+                MediaType.parse("audio/*"),
+                originalFile
+        );
+
+        MultipartBody.Part file = MultipartBody.Part.createFormData("file", originalFile.getName(), filePart);
+
+        //create Retrofit instance
+        Retrofit.Builder builder = new Retrofit.Builder()
+                .baseUrl("http://116.41.108.67:12345/")
+                .addConverterFactory(GsonConverterFactory.create());
+
+        Retrofit retrofit = builder.build();
+
+        //get client 오브젝트 콜
+        UserClient client = retrofit.create(UserClient.class);
+
+        //리퀘스트
+        Call<ResponseBody> call = client.uploadPhoto(descriptionPart, file);
+        call.enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                Toast.makeText(getApplicationContext(),"업로드 성공!",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Toast.makeText(getApplicationContext(),"업로드 실패",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }
+
 
 }

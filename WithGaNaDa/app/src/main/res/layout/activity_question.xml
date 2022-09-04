@@ -45,10 +45,11 @@
         android:layout_height="78dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="28dp"
         android:text="정답 제출"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -138,6 +139,16 @@
         android:text="Button"
         app:layout_constraintStart_toEndOf="@+id/test_play"
         app:layout_constraintTop_toBottomOf="@+id/test_stop" />
+
+    <Button
+        android:id="@+id/test_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="33dp"
+        android:text="업로드"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test_play" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Stage2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Question.class);
+                Intent intent = new Intent(getApplicationContext(), select4Q.class);
                 //데이터 송신부
                 intent.putExtra("stageIndex",2);
                 startActivity(intent);	//문제 액티비티로 이동
