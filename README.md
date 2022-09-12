@@ -41,6 +41,12 @@ https://www.notion.so/4972bf41c09d433692bbfc8a7cc29996
 
 <img src="https://user-images.githubusercontent.com/63789657/189565944-a22f5500-10a8-4f03-bc2c-a7fa49ec0465.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189566072-942a9865-aa79-40a6-a5ff-8aa574d9de69.jpg" width="20%">
 
+처음 문제 풀기 페이지에 접근하면 두 가지를 허용해 주어야 합니다. 
+
+<img src="https://user-images.githubusercontent.com/63789657/189614310-f051d26d-060a-4728-917f-f65d90e309e7.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189615552-3dac0cc0-a563-49f2-95d8-27ed1d1ba6d5.jpg" width="20%">
+                                                                                                                                                     
+
+
 
 
 ## 가나다함께 팀원 소개
