@@ -1,20 +1,37 @@
 # With-GANADA (가나다함께)
 
-## 데이터 수집 및 전처리
-    음성 데이터 : [아이, 가수, 나무, 나비, 오리, 까치, 뿌리, 파도, 부모, 화가, 의자] 를 녹음하여 추출
-    
-    사용한 프로그램 audicity
-    https://www.audacityteam.org/download/ 
-
-    m4a mp3 변환 프로그램 convertio
-    https://convertio.co/kr/m4a-mp3/
-
-## 팀 프로젝트 진행 상황 기록
+## 팀 프로젝트 관리
 https://www.notion.so/4972bf41c09d433692bbfc8a7cc29996
 
+<br><br>
 
-<br><br><br>
+## 프로젝트 설치 가이드
+> 안드로이드 프로젝트 <br>
 
+> 서버 프로젝트 <br>
+
+> 딥러닝 코드 <br>
+
+## 딥러닝 모델 
+> https://drive.google.com/drive/folders/146M8mq4q9ERBfql4MqaE2IC5bPoLiOv9 <br>
+
+    ganada_A.h5 : 1단계 음성 분류 모델
+    ganada_B.h5 : 2단계 음성 분류 모델
+    ganada_C.h5 : 3단계 음성 분류 모델
+
+
+
+## 음성 데이터
+> 1 단계 : 아이, 화가, 뿌리 <br>
+https://drive.google.com/drive/folders/17tfmA2f1XlZumJtv_SfuaKf7wMIXL9Ob <br>
+    
+> 2 단계 : 가수, 오리, 파도 <br>
+https://drive.google.com/drive/folders/1QRby607veCuf5cc_6C3MvC_w5geRDqEy <br>
+    
+> 3 단계 : 부모, 까치, 의자 <br>
+https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
+
+<br><br>
 
 ## 실행 가이드
 ### 앱 설치하기
