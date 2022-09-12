@@ -18,7 +18,7 @@ https://www.notion.so/4972bf41c09d433692bbfc8a7cc29996
 ### 앱 설치하기
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
 
-https://drive.google.com/file/d/127xOioo23Lcd2F6oMLlGqcUYB876gNk0/view?usp=sharing
+> https://drive.google.com/file/d/127xOioo23Lcd2F6oMLlGqcUYB876gNk0/view?usp=sharing
 
 
 다운로드 링크를 클릭하면 아래와 같이 경고가 뜨지만 [무시하고 다운로드] 버튼을 툴러 다운로드합니다. <br>
