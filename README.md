@@ -38,7 +38,7 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
 
 
-> https://drive.google.com/file/d/127xOioo23Lcd2F6oMLlGqcUYB876gNk0/view?usp=sharing
+> https://drive.google.com/file/d/1yIZ2XITRagGOwWTs6Jml8h4LkhWDFIlu/view?usp=sharing
 
 
 
