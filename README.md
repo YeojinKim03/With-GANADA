@@ -84,9 +84,15 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <br><br>
 
 
+---
 
+## 팀구성원 
 
-## 가나다함께 팀원 소개
-[팀원1]
-[팀원2]
-[팀원3]
+#### 김성은 Leader
+> Android / Server / 소속 없음
+
+#### 조보미 
+> Deeplearning / 소속 없음
+
+#### 김여진 
+> Design / Document / 이화여자대학교 대학원 재학
