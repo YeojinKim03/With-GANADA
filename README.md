@@ -1,7 +1,9 @@
 # With-GANADA (가나다함께)
 
 ## 팀 프로젝트 관리
-https://www.notion.so/4972bf41c09d433692bbfc8a7cc29996
+> 회의록, 작업 목록 관리 <br>
+
+https://bitter-waterlily-190.notion.site/4972bf41c09d433692bbfc8a7cc29996
 
 <br><br>
 
