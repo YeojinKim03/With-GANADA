@@ -56,13 +56,32 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 단, 현재는 <받침이 없는 단어> 1 ~ 3 단계까지 실행 가능합니다. <br>
 
 
-<img src="https://user-images.githubusercontent.com/63789657/189565944-a22f5500-10a8-4f03-bc2c-a7fa49ec0465.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189566072-942a9865-aa79-40a6-a5ff-8aa574d9de69.jpg" width="20%">
+<img src="https://user-images.githubusercontent.com/63789657/189565944-a22f5500-10a8-4f03-bc2c-a7fa49ec0465.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189566072-942a9865-aa79-40a6-a5ff-8aa574d9de69.jpg" width="20%">   <img src="https://user-images.githubusercontent.com/63789657/189794766-d618a568-677c-46b2-9df7-5f38688fe9a9.jpg" width="20%">
 
 숫자 1 ~3 중 하나를 눌러 문제를 풀어봅시다. <br>
-처음 문제 풀기 페이지에 접근하면 두 가지를 허용해 주어야 합니다. <br>
+<b>처음 문제 풀기</b> 페이지에 접근하면 두 가지를 <b>허용</b>해 주어야 합니다. <br>
 
-<img src="https://user-images.githubusercontent.com/63789657/189617660-cac53cf8-455b-4413-bfcd-3af911effde0.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189617766-88318a44-a9b0-4b65-9a4a-d8a416e8c275.jpg" width="20%">
-                                                                                                                                                     
+<img src="https://user-images.githubusercontent.com/63789657/189617660-cac53cf8-455b-4413-bfcd-3af911effde0.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189617766-88318a44-a9b0-4b65-9a4a-d8a416e8c275.jpg" width="20%">  
+                                                                                            
+어린이들 또는 외국인을 위한 한글 배우기 앱으로, 문제 유형은 4가지입니다. <br>
+듣고 따라하기, 그림 보고 단어 고르기, 단어 보고 그림 고르기, 바르게 읽기 <br>
+문제 유형이 랜덤하게 출제되며 5개의 문제를 풀고 결과를 확인합니다. <br>
+
+<img src="https://user-images.githubusercontent.com/63789657/189794473-da72c279-0a45-47f1-8aec-84456d1c17bb.jpg" >
+<br>
+
+그림 보고 단어 고르기, 단어 보고 알맞은 그림 고르기 등의 문제를 풉니다. <br><br>
+<img src="https://user-images.githubusercontent.com/63789657/189796482-c54c9f5f-f8ea-4e0e-a314-8eb73a5d23e2.jpg">
+<br><br>
+
+잘못된 정답을 고르면 안내를 하고, 다시 풀어보도록 합니다.  <br><br>
+<img src="https://user-images.githubusercontent.com/63789657/189798934-d7ef0ac8-c780-44a6-9ced-27f138eb5567.jpg">
+<br><br>
+
+다섯 문제를 모두 풀면, 결과를 보여줍니다.<br><br>
+<img src="https://user-images.githubusercontent.com/63789657/189799095-42e58c2f-ffd8-4e74-bb6c-0c38a8756c2f.jpg">
+<br><br>
+
 
 
 
