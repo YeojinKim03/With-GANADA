@@ -87,6 +87,8 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 ---
 
 ## 팀구성원 
+<img src="https://user-images.githubusercontent.com/63789657/189853703-97fae1a2-997c-4fdb-a910-916714a52792.PNG" width="60%">
+
 
 #### 김성은 Leader
 > Android / Server / 소속 없음
