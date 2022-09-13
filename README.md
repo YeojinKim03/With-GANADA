@@ -62,8 +62,9 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <b>처음 문제 풀기</b> 페이지에 접근하면 두 가지를 <b>허용</b>해 주어야 합니다. <br>
 
 <img src="https://user-images.githubusercontent.com/63789657/189617660-cac53cf8-455b-4413-bfcd-3af911effde0.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189617766-88318a44-a9b0-4b65-9a4a-d8a416e8c275.jpg" width="20%">  
+<br>
                                                                                             
-어린이들 또는 외국인을 위한 한글 배우기 앱으로, 문제 유형은 4가지입니다. <br>
+어린이들 또는 외국인을 위한 한글 배우기 앱으로, <b>문제 유형은 4가지</b>입니다. <br>
 듣고 따라하기, 그림 보고 단어 고르기, 단어 보고 그림 고르기, 바르게 읽기 <br>
 문제 유형이 랜덤하게 출제되며 5개의 문제를 풀고 결과를 확인합니다. <br>
 
@@ -79,9 +80,8 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <br><br>
 
 다섯 문제를 모두 풀면, 결과를 보여줍니다.<br><br>
-<img src="https://user-images.githubusercontent.com/63789657/189799095-42e58c2f-ffd8-4e74-bb6c-0c38a8756c2f.jpg">
+<img src="https://user-images.githubusercontent.com/63789657/189799567-a0891f32-9ffe-48ae-a934-ee075fba5dd6.jpg">
 <br><br>
-
 
 
 
