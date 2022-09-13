@@ -95,4 +95,4 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 > Deeplearning / 소속 없음
 
 #### 김여진 
-> Design / Document / 이화여자대학교 대학원 재학
+> / 이화여자대학교 대학원 재학
