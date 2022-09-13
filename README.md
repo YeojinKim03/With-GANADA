@@ -7,12 +7,30 @@ https://bitter-waterlily-190.notion.site/4972bf41c09d433692bbfc8a7cc29996
 
 <br><br>
 
-## 프로젝트 설치 가이드
-> 안드로이드 프로젝트 <br>
+## 개발 환경
 
-> 서버 프로젝트 <br>
+### 서비스 아키텍처
 
-> 딥러닝 코드 <br>
+Architecture 이미지
+
+<br><br>
+
+---
+
+> <b>Android App 개발 환경 </b>  <br>
+
+<br>
+
+> <b>Server 개발 환경</b> <br>
+
+<br>
+
+> <b>Deeplearning 개발 환경</b> <br>
+
+Colab Notebooks <br>
+Tensorflow 2.8 <br>
+
+<br><br>
 
 ## 딥러닝 모델 
 > https://drive.google.com/drive/folders/146M8mq4q9ERBfql4MqaE2IC5bPoLiOv9 <br>
@@ -89,8 +107,9 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 ---
 
 ## 팀구성원 
-<img src="https://user-images.githubusercontent.com/63789657/189853703-97fae1a2-997c-4fdb-a910-916714a52792.PNG" width="60%">
+<img src="https://user-images.githubusercontent.com/63789657/189904120-7d15e295-af71-438f-935e-9f9acd53005f.PNG" width="60%">
 
+![member]()
 
 #### 김성은 Leader
 > Android / Server / 소속 없음
