@@ -109,7 +109,7 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 ## 팀구성원 
 <img src="https://user-images.githubusercontent.com/63789657/189904120-7d15e295-af71-438f-935e-9f9acd53005f.PNG" width="60%">
 
-![member]()
+
 
 #### 김성은 Leader
 > Android / Server / 소속 없음
