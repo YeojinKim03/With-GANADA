@@ -116,8 +116,8 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 
 ---
 
-## 4. 시연 
-https://youtu.be/1rDqgs0YydA
+## 4. 시연 및 기능 설명 영상
+https://youtu.be/pm1B6-UV-SY 
 
 <br><br>
 
