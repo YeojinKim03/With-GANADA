@@ -1,4 +1,6 @@
-# 유아와 외국인을 위한 한국어 말하기 학습 앱 '가나다함께'
+# AI 음성인식 한글 학습 어플리케이션 '가나다함께'
+
+<br>
 
 ## 1. 개발 배경 및 목적
 아동의 언어는 주로 또래 집단이나 부모님, 선생님과 같은 성인들과 대화하는 환경에서 시행착오를 바탕으로 발달하게 됩니다. 
@@ -11,32 +13,36 @@
 한글의 발음을 습득할 수 있는 서비스를 제공하고자 합니다. 
 부가적으로 한글 단어의 글자와 의미를 그림으로 배울 수 있습니다.
 
-<br><br>
+<br>
 
 ## 2. 개발 환경 및 개발 언어
 
 ### 서비스 아키텍처
 
-Architecture 이미지
-
-<br><br>
+<br>
+<img src="https://user-images.githubusercontent.com/110832671/190271123-370dc6d5-5bbd-4c10-8fc7-da1a5b2ba9ee.png"/>
+<br>
 
 
 
 > <b>Android App 개발 환경 </b>  <br>
+<br>Development Tool: Android Studio Chipmunk | 2021.2.1 Patch 2 <br>
+SDK Version: API 24(min), API 32(target), API 32(compile)<br>
+Android Gradle Plugin Version: 7.2.2<br>
+Gradle Version: 7.3.3<br>
+JDK 8 (1.8)<br>
 
-<br>
 
 > <b>Server 개발 환경</b> <br>
+<br>Ubuntu 22.04.1 LTS<br>
+Apache/2.4.52<br>
+
+
+> <b>Deeplearning 개발 환경</b> <br><br>
+Colab Notebooks <br>
+Tensorflow 2.8.2 <br>
 
 <br>
-
-> <b>Deeplearning 개발 환경</b> <br>
-
-Colab Notebooks <br>
-Tensorflow 2.8 <br>
-
-<br><br>
 
 ### 딥러닝 모델 
 > https://drive.google.com/drive/folders/146M8mq4q9ERBfql4MqaE2IC5bPoLiOv9 <br>
@@ -117,7 +123,7 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 ---
 
 ## 4. 시연 및 기능 설명 영상
-https://youtu.be/pm1B6-UV-SY 
+[![Video Label](http://img.youtube.com/vi/pm1B6-UV-SY/0.jpg)](https://youtu.be/pm1B6-UV-SY)
 
 <br><br>
 
