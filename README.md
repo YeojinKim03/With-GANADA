@@ -1,4 +1,6 @@
-# 유아와 외국인을 위한 한국어 말하기 학습 앱 '가나다함께'
+# AI 음성인식 한글 학습 어플리케이션 '가나다함께'
+
+<br>
 
 ## 1. 개발 배경 및 목적
 아동의 언어는 주로 또래 집단이나 부모님, 선생님과 같은 성인들과 대화하는 환경에서 시행착오를 바탕으로 발달하게 됩니다. 
@@ -11,32 +13,36 @@
 한글의 발음을 습득할 수 있는 서비스를 제공하고자 합니다. 
 부가적으로 한글 단어의 글자와 의미를 그림으로 배울 수 있습니다.
 
-<br><br>
+<br>
 
 ## 2. 개발 환경 및 개발 언어
 
 ### 서비스 아키텍처
 
-Architecture 이미지
-
-<br><br>
+<br>
+<img src="https://user-images.githubusercontent.com/110832671/190271123-370dc6d5-5bbd-4c10-8fc7-da1a5b2ba9ee.png"/>
+<br>
 
 
 
 > <b>Android App 개발 환경 </b>  <br>
+<br>Development Tool: Android Studio Chipmunk | 2021.2.1 Patch 2 <br>
+SDK Version: API 24(min), API 32(target), API 32(compile)<br>
+Android Gradle Plugin Version: 7.2.2<br>
+Gradle Version: 7.3.3<br>
+JDK 8 (1.8)<br>
 
-<br>
 
 > <b>Server 개발 환경</b> <br>
+<br>Ubuntu 22.04.1 LTS<br>
+Apache/2.4.52<br>
+
+
+> <b>Deeplearning 개발 환경</b> <br><br>
+Colab Notebooks <br>
+Tensorflow 2.8.2 <br>
 
 <br>
-
-> <b>Deeplearning 개발 환경</b> <br>
-
-Colab Notebooks <br>
-Tensorflow 2.8 <br>
-
-<br><br>
 
 ### 딥러닝 모델 
 > https://drive.google.com/drive/folders/146M8mq4q9ERBfql4MqaE2IC5bPoLiOv9 <br>
@@ -60,6 +66,18 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <br><br>
 
 ## 3. 실행 가이드 & 프로젝트 주요 기능
+### 서버 세팅하기
+1.  /withganada_server 폴더의 내용을 서버 홈 디렉토리에 다운로드<br>
+2.  /var/www/html 폴더 이하의 내용(upload.php와 upload디렉토리)을 다운로드<br>
+3.  upload.php 파일 upload디렉토리 권한 설정
+<pre><code>chmod 644 upload.php</code></pre>
+<pre><code>chmod 777 upload</code></pre>
+4. server.py 실행
+<pre><code>sudo python3 server.py</code></pre>
+
+
+### 어플리케이션 프로젝트 열기
+/withganada_android 폴더의 내용을 android studio 에서 import 
 
 ### 앱 설치하기
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
@@ -68,12 +86,6 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 > https://drive.google.com/file/d/1yIZ2XITRagGOwWTs6Jml8h4LkhWDFIlu/view?usp=sharing
 
 
-
-다운로드 링크를 클릭하면 아래와 같이 경고가 뜨지만 [무시하고 다운로드] 버튼을 툴러 다운로드합니다. <br>
-다운로드한 apk 파일을 실행시키면 설치가 시작됩니다. '설치' 링크를 눌러 설치를 진행합니다. <br>
-설치가 완료되면 '열기' 링크를 클릭하여 실행합니다.
-
-<img src="https://user-images.githubusercontent.com/63789657/189565466-9c2ada53-f0ae-4a82-80d3-b8e9f44fbe29.jpg" width="20%"> <img src="https://user-images.githubusercontent.com/63789657/189565474-dc22c336-ec57-43be-89a6-e1c901d606aa.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189565662-fb0d3ffd-1847-4d33-8afb-6ef6b5e419a4.jpg" width="20%">
 
 
 ### 앱 실행
@@ -117,7 +129,7 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 ---
 
 ## 4. 시연 및 기능 설명 영상
-https://youtu.be/pm1B6-UV-SY 
+[![Video Label](http://img.youtube.com/vi/pm1B6-UV-SY/0.jpg)](https://youtu.be/pm1B6-UV-SY)
 
 <br><br>
 
