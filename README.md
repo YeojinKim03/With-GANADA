@@ -87,12 +87,6 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 
 
 
-다운로드 링크를 클릭하면 아래와 같이 경고가 뜨지만 [무시하고 다운로드] 버튼을 툴러 다운로드합니다. <br>
-다운로드한 apk 파일을 실행시키면 설치가 시작됩니다. '설치' 링크를 눌러 설치를 진행합니다. <br>
-설치가 완료되면 '열기' 링크를 클릭하여 실행합니다.
-
-<img src="https://user-images.githubusercontent.com/63789657/189565466-9c2ada53-f0ae-4a82-80d3-b8e9f44fbe29.jpg" width="20%"> <img src="https://user-images.githubusercontent.com/63789657/189565474-dc22c336-ec57-43be-89a6-e1c901d606aa.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189565662-fb0d3ffd-1847-4d33-8afb-6ef6b5e419a4.jpg" width="20%">
-
 
 ### 앱 실행
 
