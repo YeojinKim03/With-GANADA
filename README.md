@@ -66,6 +66,18 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <br><br>
 
 ## 3. 실행 가이드 & 프로젝트 주요 기능
+### 서버 세팅하기
+1.  /withganada_server 폴더의 내용을 서버 홈 디렉토리에 다운로드<br>
+2.  /var/www/html 폴더 이하의 내용(upload.php와 upload디렉토리)을 다운로드<br>
+3.  upload.php 파일 upload디렉토리 권한 설정
+<pre><code>chmod 644 upload.php</code></pre>
+<pre><code>chmod 777 upload</code></pre>
+4. server.py 실행
+<pre><code>sudo python3 server.py</code></pre>
+
+
+### 어플리케이션 프로젝트 열기
+/withganada_android 폴더의 내용을 android studio 에서 import 
 
 ### 앱 설치하기
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
