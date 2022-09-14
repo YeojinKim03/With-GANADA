@@ -1,13 +1,11 @@
-# With-GANADA (가나다함께)
+# 유아와 외국인을 위한 한국어 말하기 학습 앱 '가나다함께'
 
-## 팀 프로젝트 관리
-> 회의록, 작업 목록 관리 <br>
-
-https://bitter-waterlily-190.notion.site/4972bf41c09d433692bbfc8a7cc29996
+## 1. 개발 배경 및 목적
+아동의 언어는 주로 또래 집단이나 부모님, 선생님과 같은 성인들과 대화하는 환경에서 시행착오를 바탕으로 발달하게 됩니다. 하지만 코로나19 펜데믹 기간 중 사회적 거리두기와 마스크 착용 및 원격 수업의 영향으로 미취학 및 초등 저학년 아동이 한글 해득에 어려움을 겪고 있습니다. 시중에는 모바일 기반의 한글 교육 컨텐츠들이 이미 존재하나, 이들은 모두 유료 서비스이거나 올바른 답안을 지도할 보호자를 필요로 하는 형태라고 판단되어 이들에게 도움이 될 학습 앱을 개발하게 되었습니다. ‘가나다함께’ 는 AI를 기반으로 단어의 정확한 발음과 실제 음성을 비교하여 안내함으로써 보호자나 지도자 없이도 한글의 발음을 습득할 수 있는 서비스를 제공하고자 합니다. 부가적으로 한글 단어의 글자와 의미를 그림으로 배울 수 있습니다.
 
 <br><br>
 
-## 개발 환경
+## 2. 개발 환경 및 개발 언어
 
 ### 서비스 아키텍처
 
@@ -15,7 +13,7 @@ Architecture 이미지
 
 <br><br>
 
----
+
 
 > <b>Android App 개발 환경 </b>  <br>
 
@@ -32,7 +30,7 @@ Tensorflow 2.8 <br>
 
 <br><br>
 
-## 딥러닝 모델 
+### 딥러닝 모델 
 > https://drive.google.com/drive/folders/146M8mq4q9ERBfql4MqaE2IC5bPoLiOv9 <br>
 
     ganada_A.h5 : 1단계 음성 분류 모델
@@ -41,7 +39,7 @@ Tensorflow 2.8 <br>
 
 
 
-## 음성 데이터
+### 음성 데이터
 > 1 단계 : 아이, 화가, 뿌리 <br>
 https://drive.google.com/drive/folders/17tfmA2f1XlZumJtv_SfuaKf7wMIXL9Ob <br>
     
@@ -53,7 +51,8 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 
 <br><br>
 
-## 실행 가이드
+## 3. 실행 가이드 & 프로젝트 주요 기능
+
 ### 앱 설치하기
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
 
@@ -91,23 +90,38 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 <img src="https://user-images.githubusercontent.com/63789657/189794473-da72c279-0a45-47f1-8aec-84456d1c17bb.jpg" >
 <br>
 
+녹음 후 정답을 제출하면 정답 여부와 정확도를 안내합니다. <br>
 그림 보고 단어 고르기, 단어 보고 알맞은 그림 고르기 등의 문제를 풉니다. <br><br>
-<img src="https://user-images.githubusercontent.com/63789657/189796482-c54c9f5f-f8ea-4e0e-a314-8eb73a5d23e2.jpg">
+<img src="https://user-images.githubusercontent.com/63789657/190048217-01fb3bcd-2b7c-4d7f-871c-b8992d57a3a1.jpg">
 <br><br>
 
-잘못된 정답을 고르면 안내를 하고, 다시 풀어보도록 합니다.  <br><br>
+
+잘못된 정답을 고르면 안내를 하고, 다시 풀어보도록 안내합니다.  <br><br>
 <img src="https://user-images.githubusercontent.com/63789657/189798934-d7ef0ac8-c780-44a6-9ced-27f138eb5567.jpg">
 <br><br>
 
-다섯 문제를 모두 풀면, 결과를 보여줍니다.<br><br>
+다섯 문제를 모두 풀면, 성취도 결과를 보여줍니다.<br><br>
 <img src="https://user-images.githubusercontent.com/63789657/189799567-a0891f32-9ffe-48ae-a934-ee075fba5dd6.jpg">
 <br><br>
 
 
+
 ---
 
-## 팀구성원 
-<img src="https://user-images.githubusercontent.com/63789657/189904120-7d15e295-af71-438f-935e-9f9acd53005f.PNG" width="60%">
+## 4. 시연 
+https://youtu.be/1rDqgs0YydA
+
+<br><br>
+
+
+## 5. 프로젝트 진행 관리
+> 회의록, 작업 목록 관리 <br>
+https://bitter-waterlily-190.notion.site/4972bf41c09d433692bbfc8a7cc29996
+
+<br><br>
+
+## 6. 팀구성원 
+<img src="https://user-images.githubusercontent.com/63789657/190044449-92e0f7e4-714e-4a8f-b470-8e082801faf2.PNG" width="60%">
 
 
 
@@ -118,4 +132,4 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 > Deeplearning / 소속 없음
 
 #### 김여진 
-> / 이화여자대학교 대학원 | 재학
+> Data / Design / 이화여자대학교 대학원 | 재학
