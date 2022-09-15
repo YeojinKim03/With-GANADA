@@ -20,7 +20,7 @@
 ### 서비스 아키텍처
 
 <br>
-<img src="https://user-images.githubusercontent.com/110832671/190271123-370dc6d5-5bbd-4c10-8fc7-da1a5b2ba9ee.png"/>
+<img src="https://user-images.githubusercontent.com/63789657/190310082-2e261599-8bac-461d-b738-b27d9785d4bb.png"/>
 <br>
 
 
@@ -31,11 +31,13 @@ SDK Version: API 24(min), API 32(target), API 32(compile)<br>
 Android Gradle Plugin Version: 7.2.2<br>
 Gradle Version: 7.3.3<br>
 JDK 8 (1.8)<br>
+<br>
 
 
 > <b>Server 개발 환경</b> <br>
 <br>Ubuntu 22.04.1 LTS<br>
 Apache/2.4.52<br>
+<br>
 
 
 > <b>Deeplearning 개발 환경</b> <br><br>
@@ -78,6 +80,8 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 
 ### 어플리케이션 프로젝트 열기
 /withganada_android 폴더의 내용을 android studio 에서 import 
+<br><br>
+
 
 ### 앱 설치하기
 아래 링크를 통해 apk 파일을 다운로드할 수 있습니다. 
