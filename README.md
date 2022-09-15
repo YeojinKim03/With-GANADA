@@ -100,6 +100,7 @@ https://drive.google.com/drive/folders/1b7Rc7umnQEk2vQ4jzWbXZ7Lo-zcEUt5s <br>
 
 
 <img src="https://user-images.githubusercontent.com/63789657/189565944-a22f5500-10a8-4f03-bc2c-a7fa49ec0465.jpg" width="20%">  <img src="https://user-images.githubusercontent.com/63789657/189566072-942a9865-aa79-40a6-a5ff-8aa574d9de69.jpg" width="20%">   <img src="https://user-images.githubusercontent.com/63789657/189794766-d618a568-677c-46b2-9df7-5f38688fe9a9.jpg" width="20%">
+<br><br>
 
 숫자 1 ~3 중 하나를 눌러 문제를 풀어봅시다. <br>
 <b>처음 문제 풀기</b> 페이지에 접근하면 두 가지를 <b>허용</b>해 주어야 합니다. <br>
